@@ -43,7 +43,7 @@ public class LambdaStepTests extends TestBase{
                     .setMobile(mobile)
                     .setSubject(subject)
                     .setHobby(hobby)
-                    .setImage(image)
+//                    .setImage(image)
                     .setAddress(address)
                     .setState(state)
                     .setCity(city)
@@ -63,7 +63,7 @@ public class LambdaStepTests extends TestBase{
                     .checkForm("Date of Birth", day + " " + month + "," + year)
                     .checkForm("Subjects", subject)
                     .checkForm("Hobbies", hobby)
-                    .checkForm("Picture", image)
+//                    .checkForm("Picture", image)
                     .checkForm("Address", address)
                     .checkForm("State and City", state + " " + city);
         });
