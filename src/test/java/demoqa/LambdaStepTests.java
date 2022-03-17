@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
 import static io.qameta.allure.Allure.step;
 
 
-public class LambdaStepTests {
+public class LambdaStepTests extends TestBase{
 
     RegistrationPage registrationPage = new RegistrationPage();
     String firstName = "Alex";
